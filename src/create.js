@@ -112,7 +112,7 @@ const createEnv = async function () {
       name: 'phpVersion',
       type: 'list',
       message: 'What version of PHP would you like to use?',
-      choices: ['7.3', '7.2', '7.1', '7.0'],
+      choices: ['8.0', '7.4', '7.3', '7.2', '7.1', '7.0'],
       default: '7.3'
     },
     {
@@ -273,7 +273,7 @@ const createEnv = async function () {
       name: 'phpVersion',
       type: 'list',
       message: 'What version of PHP would you like to use?',
-      choices: ['7.3', '7.2', '7.1', '7.0'],
+      choices: ['8.0', '7.4', '7.3', '7.2', '7.1', '7.0'],
       default: '7.3'
     },
     {
